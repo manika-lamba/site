@@ -32446,7 +32446,12 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 
-
+@media (max-width: 575px) {
+  .u-footer .u-text-1 {
+    width: auto;
+    margin: 13px -50px 24px 50px;
+  }
+}
 
  /*begin-variables base-font-size*/ 
  html { font-size: 16px; }
